@@ -1,0 +1,1 @@
+require 'sunspot_neo4j/neo4j_adapter'

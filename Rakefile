@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "sunspot_neo4j"
   gem.homepage = "http://github.com/Swimminschrage/sunspot_neo4j"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A Sunspot wrapper for Neo4j}
+  gem.description = %Q{A Sunspot wrapper for Neo4j that is like sunspot_rails.}
   gem.email = "Swimminschrage@gmail.com"
   gem.authors = ["Andy Schrage"]
   # dependencies defined in Gemfile
