@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.require_paths = ["lib"]
+  s.require_paths = ["lib", "lib/sunspot_neo4j"]
   s.authors = ["Andy Schrage"]
   s.date = "2015-04-08"
   s.description = "A Sunspot wrapper for Neo4j that is like sunspot_rails."
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "init.rb",
     "lib/sunspot_neo4j.rb",
-    "lib/**/*",
+    "lib/sunspot_neo4j/neo4j_adapter.rb",
     "test/helper.rb",
     "test/test_sunspot_neo4j.rb"
   ]
