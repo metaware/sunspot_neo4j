@@ -27,7 +27,7 @@ Jeweler::RubygemsDotOrgTasks.new
 
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
-  test.libs << 'lib' << 'test'
+  test.libs << 'lib' << 'test' << "lib/sunspot_neo4j"
   test.pattern = 'test/**/test_*.rb'
   test.verbose = true
 end
