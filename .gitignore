@@ -18,6 +18,13 @@ pkg
 # .idea
 .idea
 
+# Ruby gemset/version info should be ignored
+.ruby-gemset
+.ruby-version
+
+# We should ignore the Gemfile.lock as well
+Gemfile.lock
+
 # Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore: 
 #
 # * Create a file at ~/.gitignore
