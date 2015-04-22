@@ -18,5 +18,5 @@ group :development do
   gem 'rspec-rails'
   gem "sunspot_solr", '>= 1.1.0'
   gem "sunspot_test"
-  gem 'neo4j_test_server', '1.1.1'#, path: '../neo4j_test_server'
+  gem 'neo4j_test_server', '1.1.1'
 end
